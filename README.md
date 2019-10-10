@@ -5,9 +5,9 @@ Instructions for running:
 1. Make sure you have python3
 2. Make sure you have tkinter installed
     sudo apt-get install python-tk
-3. Need numpy for random numbers:
+3. Need numpy for random numbers:\n
     pip install numpy
-4. Install PIL(used to handle images)
+4. Install PIL(used to handle images):\n
     sudo apt-get install python-imaging
 5. Download images of cards:
     https://drive.google.com/drive/folders/1w7CuJu7DNw_LAQ52vclbtdM4riWYvg3_?usp=sharing
