@@ -422,6 +422,7 @@ def main():
     initial_cards = drawCardManager.draw_initial_cards(initial_no_cards)
     initial_cards_i = 0
 
+    '''
     #remove this after testing
     hidden_arr[0] = 0; visible_arr[0] = 12
     cards = []
@@ -435,16 +436,16 @@ def main():
         initial_cards_i += (hidden + visible)
         stack = Stack(cards, hidden)
         stacks.append(stack)
-
-    
     '''
+    
+    
     for i in range(no_of_stacks):
         hidden = hidden_arr[i]; visible = visible_arr[i]
         cards = initial_cards[initial_cards_i:initial_cards_i+hidden+visible]
         initial_cards_i += (hidden + visible)
         stack = Stack(cards, hidden)
         stacks.append(stack)
-    '''
+    
     dummy_arr = []; dummy_img_arr = []
     d_obj_id_to_card = {}
 
